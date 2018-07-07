@@ -41,10 +41,13 @@ class SearchViewController: UIViewController, SearchControllerDelegate, UISearch
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         self.cancelSearch()
+        self.tableView.reloadData()
+        self.searchDisplayController(controller: self, searchText: searchBar.text!)
     }
 
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         self.cancelSearch()
+        self.tableView.reloadData()
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {

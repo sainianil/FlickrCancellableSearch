@@ -19,7 +19,6 @@
         <!--Flickr Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="SearchViewController" customModule="FlickrCancellableSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -86,9 +85,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="51j-sR-5ue"/>
                                                     <exclude reference="5GX-QE-ZQJ"/>
                                                     <exclude reference="zHR-Lz-NSQ"/>
-                                                    <exclude reference="51j-sR-5ue"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -107,14 +106,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Flickr Search" id="R4s-Su-PMw">
-                        <barButtonItem key="rightBarButtonItem" title="Reset" id="bXp-ky-6ti"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Flickr Search" id="R4s-Su-PMw"/>
                     <connections>
                         <outlet property="searchBar" destination="Fhe-jx-l09" id="fDB-yJ-t7s"/>
                         <outlet property="tableView" destination="xIi-3B-hyS" id="4PI-sE-Fpc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="488.80000000000001" y="106.59670164917542"/>
         </scene>
