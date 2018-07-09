@@ -1,3 +1,3 @@
 # FlickrCancellableSearch
 
-Async search example
+Async search iOS example.
