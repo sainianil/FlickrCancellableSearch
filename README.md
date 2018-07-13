@@ -1,6 +1,6 @@
 # FlickrCancellableSearch
 
-How to use
+# How to use
 
 1. Open terminal
 2. Goto project directory
